@@ -11,9 +11,6 @@
 			padding: 0;
 			box-sizing: border-box;
 		}
-		body {
-	
-		}
 
 		/* HEADER */
 		.header {
@@ -35,83 +32,203 @@
 		.links {
 			display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            color: blueviolet;
-
+            color:  black;
 		}
 		.links-card {
-	
+            padding: 3%;
+            border: 1px, solid, black;
+            transition: rotate 1s, border 0.3s;
 		}
 		.links-card h2 {
-	
+            text-decoration: underline;
 		}
 		.links-card p {
-
+            color:  black;
+            font-style: italic;
 		}
 		.links-card:hover {
-	
+            border: 5px, solid, black;
 		}
 		.links-card:active {
-	
+            rotate: 3deg;
 		}
+
+        .yellow {background-color: yellow;}
+        .orange {background-color: orange;}
+        .vermillion {background-color: orangered;}
+        .red {background-color: red;}
+        .maroon {background-color: maroon;}
+        .purple {background-color: purple;}
+        .blue {background-color: blue;}
+        .green {background-color: green;}
+        .pink {background-color: deeppink;}
+        .black {background-color: black;}
+        .white {background-color: white;}
+        .aquamarine {background-color: aquamarine;}
+        .gray {background-color: gray;}
+        .violet {background-color: violet;}
+        .indigo {background-color: indigo;}
+        .gold {background-color: gold;}
+        .brick {background-color: firebrick;}
+        .lightpink{background-color: pink;}
+        .skyblue{background-color: deepskyblue;}
+        .darkblue {background-color: darkblue;}
+        .cyan {background-color: cyan;}
+        .brown {background-color: saddlebrown;}
+        .plum {background-color: plum;}
+        .olive {background-color: olive;}
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:active{
+            background-color: white;
+        }
+
+        @media only screen and (max-width: 800px) {
+		.links {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+	@media only screen and (max-width: 600px) {
+		.links {
+			grid-template-columns: 1fr;
+		}
+    }
 	</style>
 </head>
 
 <body>
 	<div class="header">
-		<h1 class="header-title">Name of your virtual museum</h1>
-		<p class="header-credit">Coded by your name here</p>
+		<h1 class="header-title">[almost] every colour website {ever} </h1>
+		<p class="header-credit">a virtual website museum – coded by avanee</p>
 	</div>
 
 	<div class="links">
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+		<a href="https://yellow.com/" class="links-card yellow" target="_blank">
+			<h2>yellow.com</h2>
+			<p>it's actually a cryptocurrency thing</p>
+		</a>
+
+        <a href="https://gold.com" class="links-card gold" target="_blank">
+			<h2>gold.com</h2>
+			<p>it's actually a precious metal investment portfolio help thing</p>
+		</a>
+
+		<a href="https://orange.com" class="links-card orange" target="_blank">
+			<h2>orange.com</h2>
+			<p>it's actually a telecommunications business</p>
 		</a>
 		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+		<a href="https://vermillion.us" class="links-card vermillion" target="_blank">
+			<h2>vermillion.us</h2>
+			<p>it's actually a city in south dakota</p>
 		</a>
 		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+		<a href="https://red.com" class="links-card red" target="_blank">
+			<h2>red.com</h2>
+			<p>it's actually a super fancy camera retailer</p>
 		</a>
-		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+
+        <a href="https://brick.com" class="links-card brick" target="_blank">
+			<h2>brick.com</h2>
+			<p>it's actually a brick company</p>
 		</a>
-		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+
+		<a href="https://maroon.com" class="links-card maroon" target="_blank">
+			<h2>maroon.com</h2>
+			<p>it's actually currently under development</p>
 		</a>
-		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+
+        <a href="https://goindigo.in" class="links-card indigo" target="_blank">
+			<h2>indigo.in</h2>
+			<p>it's actually a airline in india </p>
 		</a>
-		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+
+		<a href="https://purple.com" class="links-card purple" target="_blank">
+			<h2>purple.com</h2>
+			<p>it's actually a mattress seller</p>
 		</a>
-		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+
+        <a href="https://pink.com" class="links-card pink" target="_blank">
+			<h2>pink.com</h2>
+			<p>it's actually a clothing brand</p>
 		</a>
-		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+
+        <a href="https://violet.com" class="links-card violet" target="_blank">
+			<h2>violet.com</h2>
+			<p>it's actually a domain for sale</p>
 		</a>
-		
-		<a href="" class="links-card" target="_blank">
-			<h2>Website Name</h2>
-			<p>Some information about the website.</p>
+
+        <a href="https://plum.com" class="links-card plum" target="_blank">
+			<h2>plum.com</h2>
+			<p>it actually redirects to a retirement nursing facility </p>
+		</a>
+
+        <a href="https://lavender.ai" class="links-card plum" target="_blank">
+			<h2>lavender.ai</h2>
+			<p>it's actually an ai sales email assistant </p>
+		</a>
+
+        <a href="https://aquamarine.com" class="links-card aquamarine" target="_blank">
+			<h2>aquamarine.com</h2>
+			<p>it actually redirects to a domain brand development business </p>
+		</a>
+
+        <a href="https://cyan.com" class="links-card cyan" target="_blank">
+			<h2>cyan.com</h2>
+			<p>it's actually a video game company </p>
+		</a>
+
+        <a href="https://skyblue.com" class="links-card skyblue" target="_blank">
+			<h2>skyblue.com</h2>
+			<p>it's actually an insurance company </p>
+		</a>
+
+        
+        <a href="https://blue.com" class="links-card blue" target="_blank">
+			<h2>blue.com</h2>
+			<p>it's actually still loading </p>
+		</a>
+
+        <a href="https://darkblue.com" class="links-card darkblue" target="_blank">
+			<h2>darkblue.com</h2>
+			<p>it's actually a dark blue website with a logo</p>
+		</a>
+
+        <a href="https://green.org" class="links-card green" target="_blank">
+			<h2>green.org</h2>
+			<p>it's actually an environment and sustainability media platform </p>
+		</a>
+
+        <a href="https://olive.com" class="links-card olive" target="_blank">
+			<h2>olive.com</h2>
+			<p>it's actually an auto coverage and warranty solutions firm</p>
+		</a>
+
+        <a href="https://brown.edu" class="links-card brown" target="_blank">
+			<h2>brown.edu</h2>
+			<p>it's actually a university in rhode island</p>
+		</a>
+
+        <a href="https://black.com" class="links-card black" target="_blank">
+			<h2>black.com</h2>
+			<p>it's actually an email encryption service </p>
+		</a>
+
+        <a href="https://gray.com" class="links-card gray" target="_blank">
+			<h2>gray.com</h2>
+			<p>it's actually a real estate contractor</p>
+		</a>
+
+        <a href="https://white.us" class="links-card white" target="_blank">
+			<h2>white.us</h2>
+			<p>it's actually a consulting service</p>
 		</a>
 	</div>
+
+    <!--add media query - 2 col and then 1 col for grid  -->
 </body>
 </html>
